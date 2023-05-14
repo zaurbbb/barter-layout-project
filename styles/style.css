@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: "AtypTextRegular";
   font-weight: 400;
@@ -30,4 +31,44 @@
     url(/barter-layout-project/fonts/AtypText-Bold.eot) format("eot");
   font-display: swap;
   
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+
+    background-color: blue;
+    color: lightgray;
+}
+
+header button {
+    display: none;
+}
+
+
+@media screen and (min-width: 524px) {
+    header {
+        background-color: yellow;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    header {
+        background-color: green;
+    }
+    header button {
+        display: block;
+    }
+}
+
+
+@media screen and (min-width: 1000px) {
+    header {
+        background-color: red;
+    }
 }
