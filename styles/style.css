@@ -29,5 +29,53 @@
     url(/barter-layout-project/fonts/AtypText-Bold.woff) format("woff"),
     url(/barter-layout-project/fonts/AtypText-Bold.eot) format("eot");
   font-display: swap;
-  
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #272727;
+}
+
+body {
+  background-color: #E5E5E5;
+}
+
+header {
+  font-family: "AtypTextRegular";
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 16px 0;
+}
+
+.header__logo-img {
+  height: 24px;
+}
+
+.header__nav {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.header__btn {
+  display: none;
+}
+
+@media screen and (min-width: 360px) {
+}
+
+@media screen and (min-width: 480px) {
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1000px) {
+}
+
+@media screen and (min-width: 1200px) {
+
 }
