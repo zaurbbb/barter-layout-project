@@ -1,3 +1,38 @@
+
+@font-face {
+  font-family: "AtypTextRegular";
+  font-weight: 400;
+  font-style: normal;
+  src: local("Atyp Text Regular"), local("AtypText-Regular"),
+    url(/barter-layout-project/fonts/AtypText-Regular.woff2) format("woff2"),
+    url(/barter-layout-project/fonts/AtypText-Regular.woff) format("woff"),
+    url(/barter-layout-project/fonts/AtypText-Regular.eot) format("eot");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "AtypTextMedium";
+  font-weight: 500;
+  font-style: normal;
+  src: local("Atyp Text Medium"), local("AtypText-Medium"),
+    url(/barter-layout-project/fonts/AtypText-Medium.woff2) format("woff2"),
+    url(/barter-layout-project/fonts/AtypText-Medium.woff) format("woff"),
+    url(/barter-layout-project/fonts/AtypText-Medium.eot) format("eot");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "AtypTextBold";
+  font-weight: 700;
+  font-style: normal;
+  src: local("Atyp Text Bold"), local("AtypText-Bold"),
+    url(/barter-layout-project/fonts/AtypText-Bold.woff2) format("woff2"),
+    url(/barter-layout-project/fonts/AtypText-Bold.woff) format("woff"),
+    url(/barter-layout-project/fonts/AtypText-Bold.eot) format("eot");
+  font-display: swap;
+  
+}
+
 body {
     margin: 0;
 }
@@ -37,4 +72,3 @@ header button {
         background-color: red;
     }
 }
-
