@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="./styles/style.css">
+  <meta name="viewport" content="width=device-width, initical-scale=1">
+  <link rel="stylesheet" href="./styles/header.css">
+  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="stylesheet" href="./styles/footer.css">
   <title>Barter</title>
 </head>
 <body>
@@ -17,9 +19,46 @@
     </nav>
     <a class="header__btn" href="#">Авторизация</a>
   </header>
-  <main>
+  <main class="main">
+    <section class="info">
+      <div class="info__wrapper">
+        <div class="info__description">
+          <div class="info__text-group">
+            <h1 class="info__heading"></h1>
+            <br>
+            <p class="info__paragraph"></p>
+          </div>
+          <div class="info__buttons-group">
+            <button class="info__btn"></button>
+            <button class="info__btn"></button>
+          </div>
+        </div>
+        <div class="info__img"></div>
+      </div>
+    </section>
+    <section class="statistics"></section>
   </main>
-  <footer>
+  <footer class="footer">
+    <div class="footer__images">
+      <img class="footer__logo" src="./images/barter_logo.svg" alt="logo">
+      <ul class="footer__list">
+        <li class="footer__item">
+          <a class="footer__link" href="#">
+            <img class="footer__image" src="./images/socials2.svg" alt="logo">
+          </a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">
+            <img class="footer__image" src="./images/socials.svg" alt="logo">
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__connection">
+      <a class="footer__partners" href="#">Сайт для партнеров</a>
+      <a class="footer__agreement" href="#">Пользовательское соглашение</a>
+      <p class="footer__number">+7 (495) 320-89-85</p>
+    </div>
   </footer>
 </body>
 </html>

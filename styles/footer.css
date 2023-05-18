@@ -1,0 +1,54 @@
+@import url(./typography.css);
+
+.footer {
+  display: grid;
+  row-gap: 53px;
+}
+
+.footer__images {
+  display: grid;
+  justify-content: center;
+  row-gap: 37px;
+}
+
+.footer__logo {
+  width: 157px;
+}
+
+.footer__list {
+  display: grid;
+  grid-template-columns: 36px 36px;
+  column-gap: 28px;
+  justify-content: center;
+}
+
+.footer__connection {
+  display: grid;
+  row-gap: 6px;
+  margin: auto auto;
+}
+
+.footer__partners {
+  margin: 0 auto;
+  font-family: "AtypTextMedium", sans-serif;
+  text-decoration: underline;
+  color: #EA4256;
+}
+
+.footer__agreement, .footer__number {
+  margin: 0 auto;
+  font-family: "AtypTextRegular", sans-serif;
+  color: #939393;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 161px 244px;
+    justify-content: space-evenly;
+  }
+
+  .footer__partners, .footer__number {
+    margin-right: 0;
+  }
+}
