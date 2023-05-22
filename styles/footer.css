@@ -3,6 +3,7 @@
 .footer {
   display: grid;
   row-gap: 53px;
+  padding-bottom: 30px;
 }
 
 .footer__images {
@@ -17,28 +18,33 @@
 
 .footer__list {
   display: grid;
+  justify-content: center;
   grid-template-columns: 36px 36px;
   column-gap: 28px;
-  justify-content: center;
 }
 
 .footer__connection {
   display: grid;
   row-gap: 6px;
+
   margin: auto auto;
 }
 
 .footer__partners {
   margin: 0 auto;
+
   font-family: "AtypTextMedium", sans-serif;
   text-decoration: underline;
-  color: #EA4256;
+
+  color: var(--primary-color);
 }
 
 .footer__agreement, .footer__number {
   margin: 0 auto;
+
   font-family: "AtypTextRegular", sans-serif;
-  color: #939393;
+
+  color: var(--tertiary-color);
 }
 
 @media screen and (min-width: 768px) {
