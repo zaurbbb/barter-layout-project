@@ -3,6 +3,7 @@
 .footer {
   display: grid;
   row-gap: 53px;
+  padding-bottom: 30px;
 }
 
 .footer__images {
